@@ -15,12 +15,16 @@ font-family: 'Roboto', sans-serif;
 
 #setd{
 font-family: 'Caveat', cursive;
+ margin-top: 10px;
+ margin-bottom: 10px;
 }
 
 #gen { border-bottom: 3px double; }
 
 #static {
-text-align: right;a
+text-align: right;
+ margin-top: 10px;
+ margin-bottom: 10px;
 }
 
 #web { color: #FF8C00;}
