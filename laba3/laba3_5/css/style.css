@@ -1,0 +1,35 @@
+body {
+ color: #fff;
+ background-color: #202020;
+}
+
+#web {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  margin-left: 650px;
+}
+#web{
+font-family: 'Roboto', sans-serif;
+}
+
+#setd{
+font-family: 'Caveat', cursive;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+#gen { 
+ border-bottom: 3px double; 
+ padding: 3px 1% 0.5em 1%;
+
+}
+
+#static {
+text-align: right;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+#web { color: #FF8C00;}
+#static { color: #00FA9A;}
