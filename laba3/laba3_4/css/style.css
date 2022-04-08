@@ -7,15 +7,11 @@ body {
 text-align: right;
 }
 #web{
-body {
-  font-family: 'Roboto', sans-serif;
-}
+font-family: 'Roboto', sans-serif;
 }
 
 #setd{
-body {
-  font-family: 'Caveat', cursive;
-}
+font-family: 'Caveat', cursive;
 }
 
 #static {
