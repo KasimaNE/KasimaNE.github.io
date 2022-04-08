@@ -12,6 +12,12 @@ body {
 }
 }
 
+#setd{
+body {
+  font-family: 'Caveat', cursive;
+}
+}
+
 #static {
 text-align: right;a
 }
