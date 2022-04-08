@@ -14,6 +14,8 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Caveat', cursive;
 }
 
+#gen { border-bottom: 3px double; }
+
 #static {
 text-align: right;a
 }
