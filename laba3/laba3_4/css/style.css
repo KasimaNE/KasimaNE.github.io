@@ -7,7 +7,7 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 50px;
-  margin-left: 500px;
+  margin-left: 600px;
 }
 #web{
 font-family: 'Roboto', sans-serif;
@@ -19,7 +19,11 @@ font-family: 'Caveat', cursive;
  margin-bottom: 10px;
 }
 
-#gen { border-bottom: 3px double; }
+#gen { 
+ border-bottom: 3px double; 
+ padding: 10px 10% 2em 15%;
+
+}
 
 #static {
 text-align: right;
