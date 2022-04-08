@@ -1,1 +1,18 @@
+body {
+ color: #fff;
+ background-color: #202020;
+}
 
+#web {
+text-align: right;
+}
+#web{
+font-family: FreeMono, monospace;
+}
+
+#static {
+text-align: right;
+}
+
+#web { color: #FF8C00;}
+#static { color: #9370DB;}
