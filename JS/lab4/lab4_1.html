@@ -5,19 +5,19 @@
     <script>
         
         "use strict";
-        let book1 = {};
+        let book1 = {};//создаём пустой объект
 
-        book1.title = "као чео";
+        book1.title = "као чео";//добавляем свойства
         book1.pubYear = 2005;
         book1.price = 231;
 
-        let book2 = {
+        let book2 = {//создаём объект 2
             title: "Ананас",
             pubYear: 2020,
             price: 600,
         };
 
-        console.log("book1:");
+        console.log("book1:");//вывод в консоль
         for (let prop in book1)
             console.log(prop + ":" + book1[prop]);
 
