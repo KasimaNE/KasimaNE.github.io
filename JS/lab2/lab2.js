@@ -12,7 +12,7 @@ function sumTo(n) {//вычисляем сумму от 1 до n
     return sum;
 }
 
-function factorial(n) {
+function factorial(n) {// возвращение факториала введённого числа
     let md = 1;
     let i = 1;
     while (i <= n) {
@@ -22,7 +22,7 @@ function factorial(n) {
     return md;
 }
 
-function fib(n) {
+function fib(n) {// получение числа фибаначи
     let a = 1n;
     let b = 1n;
     if (n == 0) return 0;
@@ -36,9 +36,9 @@ function fib(n) {
     return b;
 }
 
-function compare(x) {
+function compare(x) {// принимаем цедочисленное значение
     let res = function() {
-        let y = prompt('Введите y');
+        let y = prompt('Введите y');//вводим значение
         if (x < y) return true
         else if (x > y) return false
         else if (x = y) return null;
