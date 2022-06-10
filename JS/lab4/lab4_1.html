@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<body>
+    <script>
+        
+        "use strict";
+        let book1 = {};
+
+        book1.title = "1984";
+        book1.pubYear = 1949;
+        book1.price = 450;
+
+        let book2 = {
+            title: "Страх и отвращение в Лас-Вегасе",
+            pubYear: 1971,
+            price: 1000,
+        };
+
+        console.log("book1:");
+        for (let prop in book1)
+            console.log(prop + ":" + book1[prop]);
+
+        console.log("\n");
+
+        console.log("book2:");
+        for (let prop in book2)
+            console.log(prop + ":" + book2[prop]);
+
+    </script>
+</body>
+
+</html>
