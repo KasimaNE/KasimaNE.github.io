@@ -55,7 +55,7 @@
     <script>
         let table = document.body.firstElementChild;
 
-        for (let i = 0; i < table.rows.length; i++) {
+        for (let i = 0; i < table.rows.length; i++) {//перебираем ячейки по диаганали и красим их в красный
             let row = table.rows[i];
             row.cells[i].style.backgroundColor = 'red';
         }
