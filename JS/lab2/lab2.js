@@ -1,10 +1,10 @@
 'use strict';
 
-function pow(x, n) {
+function pow(x, n) { //возводим в степень
     return x ** n;
 }
 
-function sumTo(n) {
+function sumTo(n) {//вычисляем сумму от 1 до n
     let sum = 0;
     for (let i = 1; i <= n; i++) {
         sum = sum + i;
@@ -13,13 +13,13 @@ function sumTo(n) {
 }
 
 function factorial(n) {
-    let multiplier = 1;
+    let md = 1;
     let i = 1;
     while (i <= n) {
-        multiplier *= i
+        md *= i
         i++;
     }
-    return multiplier;
+    return md;
 }
 
 function fib(n) {
