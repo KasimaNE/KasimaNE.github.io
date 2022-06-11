@@ -11,15 +11,18 @@ function getDecimal(num) {//возвращаем дробную часть от 
     }
     return str;
 }
-function ucFirst(str) {//переводим первый символ в вверхний регистр
-    return (str[0].toUpperCase() + str.slice(1));//возвращаем значение строки преобразованное в верхний регистр
+/**
+ * переводит первый символ строки в верхний регистр
+ * @param {string} str строка
+ * @returns строка с первым символом в верхнем регистре
+ */
+function ucFirst(str) {
+    return (str[0].toUpperCase() + str.slice(1));
 }
 
 function checkSpam(str) {
     str = str.toLowerCase();
-    if ((str.includes('xxx')) || (str.includes('viagra')))//если строка совпадает то даём тру
-        return true;
-    else return false;// не совпадает фалсе
+    return (str.includes('xxx')) || (str.includes('viagra'))
 }
 
 function truncate(str, maxlength) {//проверяем длиину строки
