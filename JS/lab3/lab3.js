@@ -8,8 +8,9 @@ function getDecimal(num) {//возвращаем дробную часть от 
     if (Number(num) < 0) {//
         str = 1 - Number(str);
         str = str.toFixed(a.length - 1);
+        let dd = str.toNumber();
     }
-    return num;
+    return dd;
 }
 /**
  * переводит первый символ строки в верхний регистр
