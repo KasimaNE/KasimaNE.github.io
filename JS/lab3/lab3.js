@@ -9,7 +9,7 @@ function getDecimal(num) {//возвращаем дробную часть от 
         str = 1 - Number(str);
         str = str.toFixed(a.length - 1);
     }
-    return str;
+    return num;
 }
 /**
  * переводит первый символ строки в верхний регистр
