@@ -7,10 +7,9 @@ function getDecimal(num) {//возвращаем дробную часть от 
     let str = 0 + a;
     if (Number(num) < 0) {//
         str = 1 - Number(str);
-        str = str.toFixed(a.length - 1);
-        let dd = str.toNumber();
+        str = + str.toFixed(a.length - 1);
     }
-    return dd;
+    return str;
 }
 /**
  * переводит первый символ строки в верхний регистр
