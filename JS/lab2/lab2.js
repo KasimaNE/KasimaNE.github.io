@@ -1,8 +1,8 @@
 'use strict';
 /**
  * pow возводит в степень
- * @param {кладём x} x 
- * @param {кладём n} n 
+ * @param {number} x 
+ * @param {number} n 
  * @returns выводим x в степни n
  */
 function pow(x, n) { //возводим в степень
@@ -10,7 +10,7 @@ function pow(x, n) { //возводим в степень
 }
 /**
  * вычисляет сумму от 1 до n
- * @param {вводимое число с клавиатуры} n 
+ * @param {number} n 
  * @returns вывод суммы от 1 до n
  */
 function sumTo(n) {//вычисляем сумму от 1 до n
@@ -23,25 +23,28 @@ function sumTo(n) {//вычисляем сумму от 1 до n
 
 /**
  * возвращает факториал
- * @param {факториал от n} n 
+ * @param {number} n 
  * @returns 
  */
-function factorial(n) {// возвращение факториала введённого числа
-    let md = 1;
-    let i = 1;
-    while (i <= n) {
-        md *= i
-        i++;
+
+
+function factorial(n) {
+    if (n == 0) {
+        return 1;
     }
-    return md;
+    return n * factorial(n - 1);
+
 }
 
+
 /**
- * число фибаначи
- * @param {вводимое число с клавиатуры} n 
- * @returns вывод после цикла числа фибаначи
+ * число Фибаначи
+ * @param {number} n 
+ * @returns вывод Bigint числа Фибаначи
  */
-function fib(n) {// получение числа фибаначи
+
+
+function fib(n) {// получение числа Фибаначи
     let a = 1n;
     let b = 1n;
     if (n == 0) return 0;
@@ -54,18 +57,18 @@ function fib(n) {// получение числа фибаначи
     }
     return b;
 }
+
+
+
 /**
  * сравнивает числа
- * @param {сравнивает 2 числа} x 
+ * @param {number} x 
  * @returns выводит trye если x меньше y, false если наоборт, null если они равны
  */
 function compare(x) {// принимаем цедочисленное значение
-    let res = function() {
-        let y = prompt('Введите y');//вводим значение
+    return function(y){
         if (x < y) return true
         else if (x > y) return false
         else if (x = y) return null;
     }
-return res();
-
 }
