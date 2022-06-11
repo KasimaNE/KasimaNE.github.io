@@ -1,9 +1,18 @@
 'use strict';
-
+/**
+ * pow возводит в степень
+ * @param {кладём x} x 
+ * @param {кладём n} n 
+ * @returns выводим x в степни n
+ */
 function pow(x, n) { //возводим в степень
     return x ** n;
 }
-
+/**
+ * вычисляет сумму от 1 до n
+ * @param {вводимое число с клавиатуры} n 
+ * @returns вывод суммы от 1 до n
+ */
 function sumTo(n) {//вычисляем сумму от 1 до n
     let sum = 0;
     for (let i = 1; i <= n; i++) {
@@ -12,6 +21,11 @@ function sumTo(n) {//вычисляем сумму от 1 до n
     return sum;
 }
 
+/**
+ * возвращает факториал
+ * @param {факториал от n} n 
+ * @returns 
+ */
 function factorial(n) {// возвращение факториала введённого числа
     let md = 1;
     let i = 1;
@@ -22,6 +36,11 @@ function factorial(n) {// возвращение факториала введё
     return md;
 }
 
+/**
+ * число фибаначи
+ * @param {вводимое число с клавиатуры} n 
+ * @returns вывод после цикла числа фибаначи
+ */
 function fib(n) {// получение числа фибаначи
     let a = 1n;
     let b = 1n;
@@ -35,7 +54,11 @@ function fib(n) {// получение числа фибаначи
     }
     return b;
 }
-
+/**
+ * сравнивает числа
+ * @param {сравнивает 2 числа} x 
+ * @returns выводит trye если x меньше y, false если наоборт, null если они равны
+ */
 function compare(x) {// принимаем цедочисленное значение
     let res = function() {
         let y = prompt('Введите y');//вводим значение
