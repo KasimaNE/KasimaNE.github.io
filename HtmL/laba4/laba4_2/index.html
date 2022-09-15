@@ -4,17 +4,6 @@
 		<meta charset="UTF-8">
 		<title>Оформление вертикального меню</title>
 		<style>
-
-.menu ul {
-    list-style-image: url(/laba4/laba4_2/pic/minus.gif);
-   }
-
-.menu li ul {
-    list-style-image: url(/laba4/laba4_2/pic/point.gif);
-   }
-  
-
-  
 			html {
 					background: #f0f0f0;
 			}
@@ -24,34 +13,39 @@
 					background: #fff;
 			}
 			
-			.menu ul {
-					
+			ul {
+				list-style-image: url(plus.gif);
+				width: 200px;	
 			}
 			
-			.menu li {
-					
+			li ul {
+				display:none;
+  				position: relative;
+  				top:0;
+  				width: 150px;	
 			}
 			
-			.menu li a {
-					
+			li:hover {
+				list-style-image: url(minus.gif);	
 			}
 			
-			.menu li a:hover {
-					
+			.menu li ul :hover{
+				list-style-image: url(point.gif);
 			}
 			
-			.menu li ul {
-					
+			li:hover ul {
+				display:block;		
 			}
 			
-			.menu li li {
-					
+			.menu li ul{
+  				list-style-image: url(point.gif);
 			}
 	</style>
 </head>
 <body>
 	<nav class="menu">
 		<ul>
+			
 			<li><a href="#">Фильмы</a>
 				<ul>
 					<li><a href="#">Экшн</a></li>
